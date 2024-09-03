@@ -1,0 +1,202 @@
+*,
+*::after,
+*::before{
+  box-sizing:border-box;
+}
+a{
+  color: #ffff00;
+}
+body{
+  font-family: Gill Sans Extrabold, serif;
+  background: radial-gradient(#0000ff,#00008b,#000 );
+  background-repeat: no-repeat;
+}
+/* Animation for background effect -----------------------*/
+.water1{
+  animation: waterwave forwards;
+  animation-duration:1.5s;
+  animation-iteration-count:1;
+}
+@keyframes waterwave{
+  10%{
+    background: radial-gradient(#ffc0cb,#ffff00, #0000ff 10%,#00008b 30%, #0000ff 30%,#00008b 30% );
+  }
+  30%{
+    background: radial-gradient(#ffc0cb,#ffff00, #0000ff 20%,#00008b 30%, #0000ff 40%,#00008b 30% );
+  }
+  50%{
+    background: radial-gradient(#ffc0cb,#ffff00, #0000ff 30%,#00008b 40%, #0000ff 50%,#00008b 30% );
+  }
+  70%{
+    background: radial-gradient(#ffc0cb,#ffff00, #0000ff 40%,#00008b 50%, #0000ff 60%,#00008b 30% );
+  }
+  90%{
+    background: radial-gradient(#ffc0cb,#ffff00, #0000ff 50%,#00008b 60%, #0000ff 70%,#00008b 30% );
+  }
+  100%{
+    
+    background: radial-gradient(#ffc0cb,#ffff00, #0000ff 60%,#00008b 80%, #00008b 100% );
+  }
+}
+/* Header---------------------------- */
+.jumbotron{
+  background:radial-gradient(#00008b,#0000ff,#000);
+  border-radius:0 0 33% 33%;
+  box-shadow:10px 10px 10px 10px #000;
+}
+#main_head{
+  font-family: Gill Sans Extrabold, serif;
+  font-family: Tahoma serif;
+  font-size: 80px;
+  text-shadow: 10px 10px 10px #fff;
+}
+#third_head{
+  font-family: Gill Sans Extrabold, sans-serif;
+  color: #fff;
+  text-shadow: 5px 5px 5px #000;
+}
+/* Animation for header text */
+.truth{
+  animation:linear;
+  animation-duration: 5s;
+  animation-name: truth;
+  animation-iteration-count: infinite;
+}
+@keyframes truth{
+  25%,35%,45%,55%,65%,75%,85%,95%{
+    color:#ffff00;
+  }
+  30%,40%,50%,60%,70%,80%,90%,100%{
+    color:#000;
+  }
+}
+#logo{
+  height: 200px;
+  width: 75px;
+}
+#logo2{
+  height: 200px;
+  width: 75px;
+}
+/* Animation for header image---------- */
+.helrotate{
+  animation: linear;
+  animation-name: helixRotate;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+@keyframes helixRotate{
+  20%{
+    transform:rotateY(180deg);
+  }
+  30%{
+    transform: rotate(180deg);
+  }
+  50%{
+    transform:rotateY(180deg);
+  }
+}
+/* Banner----------------------------- */
+#explore_head{
+  font-family: Gill Sans Extrabold, serif;
+  border-bottom:2mm inset #ffc0cb;
+  border-left:2mm inset #ffc0cb;
+  border-radius:20px;
+  background: radial-gradient(gray,#0000ff, #ffc0cb);
+  height:150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 2px #ffff00;
+  font-size:50px;
+}
+/* Course buttons ---------------------*/
+.show_button{
+  font-family: Gill Sans Extrabold, sans-serif;
+  margin: 20px 0 20px 0;
+  background: radial-gradient(#000, #00008b, #ffc0cb);
+  font-size:35px;
+  color:#ffff00;
+  text-shadow: 2px 2px 2px #ffc0cb;
+  border:1mm outset #ffc0cb;
+  border-radius: 30px;
+}
+/* Card-------------------------------- */
+.card{
+  height:300px;
+  border:2mm ridge #000;
+}
+.card-title{
+  font-family: Gill Sans Extrabold, serif;
+  font-size: 40px;
+  color:#ffff00;
+  text-shadow: 2px 2px 2px #000;
+  text-decoration: underline;
+}
+.col_scroll{
+  overflow: scroll;
+}
+.card_paragraph{
+  font-family: Gill Sans, serif;
+  margin: 0 10px 0 10px;
+  font-size: 25px;
+  padding: 0 10px 0 10px;
+}
+.card_pic{
+  border:4px solid #000;
+  border-radius: 25%;
+  box-shadow: 10px 10px 10px #00008b;
+}
+/* Animation for each course card----------------------------- */
+.cardDeco{
+  animation:gradientMover forwards;
+  animation-duration:1s;
+  animation-iteration-count: 1;
+}
+@keyframes gradientMover{
+  0%{
+    background: linear-gradient(135deg,  #ffdead 10% ,#00008b, #00008b)
+  }
+  25%{
+    background: linear-gradient(135deg,#00008b, #ffdead 20% , #00008b);
+  }
+  50%{
+    background: linear-gradient(135deg, #00008b , #00008b, #ffdead 20%);
+  }
+
+  100%{
+    background: linear-gradient(135deg, #00008b , #00008b 5%, #ffdead 40%);
+  }
+}
+/* Footer------------------------------------------- */
+footer{
+  border:3px solid #000;
+  border-radius:20px;
+  background: radial-gradient(#808080,#0000ff, #ffc0cb);
+  margin: 10px 0 10px 0;
+}
+#footer_head{
+  text-shadow: 5px 5px 5px #ffc0cb;
+  font-family: fantasy;
+  font-size: 60px;
+  color: #ffff00
+}
+#footer_para{
+  font-family: Gill Sans Extrabold, sans-serif;
+  font-size: 20px;
+  color:#fff;
+  text-shadow: 3px 3px 3px #000;
+}
+.link-lists{
+  list-style: none;
+  font-size: 20px;
+}
+.linksBut{
+  font-family: Gill Sans Extrabold, serif;
+  box-shadow: 5px 5px 5px #fff;
+  background-color: #00008b;
+  border-radius: 75px;
+  text-shadow: 2px 2px 2px #ffc0cb;
+  font-size:30px;
+  color:#ffff00; 
+}

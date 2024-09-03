@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cost and Finance</title>
+    <link rel="stylesheet" href="https://cdn.tlm.cloud/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/pricing_page.css">
+  </head>
+  <header class="text-center">
+    <div class=" jumbotron jumbotron-fluid" id="jtron">
+      <div class="container">
+        <div class="Main_headDiv d-flex">
+          <img id="logo" class="helrotate"  src="../assets/helixinsert.png" alt="double helix"> 
+          <h1 id="main_head"><b>The Institute of Helical Research</b>
+          </h1>
+          <img id="logo2" class="helrotate"  src="../assets/helixinsert.png" alt="double helix">
+        </div><!--Main head div-->
+        <div class="third_headDiv">
+          <h3  id="third_head" class="truth"><em>The truth is out there</em>
+          </h3>
+        </div><!--Third head div-->
+      </div><!--Container-->
+    </div><!--Jumbotron-->
+  </header><!--Header-->
+  <body>
+    <main class="container">
+      <div class="row d-flex justify-content-center" id="aa_row">
+        <div class="colorO card" id="price_card">
+          <div class="card-body text-center">
+            <h1 class="card-title">Tuition Costs, per certificate:</h1>
+            <div id="button_div">
+              <button type="button" class="price_but" data-toggle="modal" data-target="#Certificate">Associates Certificate</button>
+              <button type="button" class="price_but" data-toggle="modal" data-target="#Certificate">Professional Certificate</button>
+              <button type="button" class="price_but" data-toggle="modal" data-target="#Certificate">Master Certificate</button>
+              <button type="button" class="price_but" data-toggle="modal" data-target="#Certificate">Credentialed Agent</button>
+            </div>
+          </div><!--Card One body-->
+        </div><!--Card One-->  
+      </div><!--Card row-->
+      <div class="row d-flex justify-content-center loan_row">
+        <div id="loan_col" class="col-10 text-center">
+          <h1 id="loan_head"><b>Student Loans</b></h1>
+          <p class="loan_para">Due to thier history of cover-ups and interference, the US government, nor any other governmental body, is not involved with this Institute in any way.  The main way they interfere with research and influence mainstream science is through finacial grants, loans, and endowments.  As a completely indepent reseach institute, we do not accept or apply for any sort of federal funds.  As such, federal student loans and grants are not available at this institution.  <b id="qualis">Qualis Finacial Group</b> has generously volunteerd to fill this gap for those students who need it.  Those students who wish to apply for student loans through the Qualis Financial Group can reach them through their advisor.</p>
+        </div><!--Column-->
+      </div><!--Row 1-->
+      <div id="pic_row" class="row mt-4">
+        <div class="col-6 text-center">
+          <img class="loan_pic img-fluid" src="../assets/money1.jpeg" alt="calculator">  
+        </div><!--Column 1-->
+        <div class="col-6 text-center">
+          <img class="loan_pic img-fluid" src="../assets/money2.jpeg" alt="credit cards">  
+        </div><!--Column 2-->
+      </div>
+      <div class="row d-flex justify-content-center loan_row">
+        <div class="col-10 text-center">
+          <h1 id="loan_head"><b>Available Scholarships</b></h1>
+          <p class="loan_para">As this is the most premier institute of higher learning in the parascience field, scholarships are both rare and competitive.  For those students who are exceptionally bright in their chosen field of study and have demonstrated financial need through limited resources are encoraged to apply for scholarships through the Institute of Helical Research Dean of Students.</p>
+        </div><!--Column-->
+      </div><!--Row 2-->
+    </main>
+    <footer>
+        <div class="row d-flex justify-content-center">
+            <div class="text-center ">
+              <h2 id="footer_head"><u>Verum est ibi</u></h2>
+              <p id="footer_para"><em>The truth is out there</em></p>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center justify-content-around mb-2">
+            <button class="linksBut">
+              <a href="../index.html">Home</a>
+            </button>
+            <button class="linksBut">
+                <a href="../html/about_us.html">About Us</a>
+              </button>
+            <button class="linksBut">
+              <a href="../html/contact_us.html">Contact Us</a>
+            </button>
+            
+            
+          </div>
+    </footer>
+<!-- Modal -->
+<div class="modal fade" id="Certificate" tabindex="-1" role="dialog" aria-labelledby="modal_label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal_label"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div><!--Modal header-->
+      <div class="modal-body text-center">
+        <h2 id="mod_paraTop"></h2>
+        <h3 id="mod_paraMid"></h3>
+        <h4 id="mod_paraBot"></h4>
+      </div><!--Body div-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div><!--Modal Footer-->
+    </div>
+  </div>
+</div>
+<!--Script Section------------------------------------------------------------------------>
+    <script src="https://cdn.tlm.cloud/jquery/3.3.1/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.tlm.cloud/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.tlm.cloud/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <script src="../js/pricing.js"></script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+*,
+*::after,
+*::before{
+  box-sizing:border-box;
+}
+a{
+  color: #ffff00;
+}
+body{
+  background: linear-gradient(#0000ff 50%,#000);
+  background-repeat:no-repeat;
+}
+/* Header------------------- */
+.jumbotron{
+  background:radial-gradient(#00008b,#0000ff,#000);
+  border-radius:0 0 33% 33%;
+  box-shadow:10px 10px 10px 10px #000;
+}
+#main_head{
+  font-family: Tahoma serif;
+  font-size: 80px;
+  text-shadow: 10px 10px 10px #fff;
+}
+#third_head{
+  color: #fff;
+  text-shadow: 5px 5px 5px #000;
+}
+/* Animation for jumbotron text */
+.truth{
+  animation:linear;
+  animation-duration: 5s;
+  animation-name: truth;
+  animation-iteration-count: infinite;
+}
+@keyframes truth{
+  25%,35%,45%,55%,65%,75%,85%,95%{
+    color:#ffff00;
+  }
+  30%,40%,50%,60%,70%,80%,90%,100%{
+    color:#000;
+  }
+}
+#logo{
+  height: 200px;
+  width: 75px;
+}
+#logo2{
+  height: 200px;
+  width: 75px;
+}
+/* Animation for jumbotron images */
+.helrotate{
+  animation: linear;
+  animation-name: helixRotate;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+@keyframes helixRotate{
+  20%{
+    transform:rotateY(180deg);
+  }
+  30%{
+    transform: rotate(180deg);
+  }
+  50%{
+    transform:rotateY(180deg);
+  }
+}
+/* Cards--------------------------- */
+#who_row{
+  border:3mm outset #ffc0cb;
+}
+#who_head{
+  font-family: fantasy, serif;
+  text-shadow: -3px 3px #000;
+  color:#ffff00;
+  text-decoration: underline;
+}
+#who_para{
+  color:#fff;
+  font-size:20px;
+}
+#who_para:hover{
+  font-size:25px;
+  color:#fff;
+}
+#bold{
+  text-shadow: 1px 3px 5px #ffc0cb;
+  color:#ffff00;
+}
+#show_faq_but{
+  box-shadow: 5px 5px 5px 5px #00008b;
+  border:3px solid #000;
+  border-radius:20px;
+  background: radial-gradient(#808080,#0000ff, #ffc0cb);
+  height:150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 2px #ffff00;
+  font-size:50px;
+}
+/* Aniamtion for card text */
+.cardDeco{
+  animation: linear;
+  animation-name: gradientMover;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+}
+@keyframes gradientMover{
+  25%,35%,45%,55%,65%,75%,85%,95%{
+    color:#ffff00;
+  }
+  30%,40%,50%,60%,70%,80%,90%,100%{
+    color:#ffc0cb;
+  }
+}
+/* Carousel-------------------- */
+.car_css{
+  box-shadow:  10px 10px 30px #ffc0cb;
+  border:4mm groove #000;
+}
+/* Footer---------------------- */
+footer{
+  border:3px solid #000;
+  border-radius:20px;
+  background: radial-gradient(#808080,#0000ff, #ffc0cb);
+  margin: 10px 0 10px 0;
+}
+#footer_head{
+  text-shadow: 5px 5px 5px #ffc0cb;
+  font-family: fantasy;
+  font-size: 60px;
+  color: #ffff00
+}
+#footer_para{
+  font-size: 20px;
+  color:#fff;
+  text-shadow: 3px 3px 3px #000;
+}
+.link-lists{
+  list-style: none;
+  font-size: 20px;
+}
+.linksBut{
+  box-shadow: 5px 5px 5px #fff;
+  background-color: #00008b;
+  border-radius: 75px;
+  text-shadow: 2px 2px 2px #ffc0cb;
+  font-size:30px;
+  color:#ffff00; 
+}
+
+

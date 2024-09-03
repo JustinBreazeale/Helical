@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.tlm.cloud/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/contact.css">
+  </head>
+  <header class="text-center">
+    <div class=" jumbotron jumbotron-fluid" id="jtron">
+      <div class="container">
+        <div class="Main_headDiv d-flex">
+          <img id="logo" class="helrotate"  src="../assets/helixinsert.png" alt="double helix"> 
+          <h1  id="main_head"> <b>The Institute of Helical Research</b>
+          </h1>
+          <img id="logo2" class="helrotate"  src="../assets/helixinsert.png" alt="double helix">
+        </div><!--Main head div-->
+        <div class="third_headDiv">
+          <h3  id="third_head" class="truth"><em>The truth is out there</em>
+          </h3>
+        </div><!--Third head div-->
+      </div><!--Container-->
+    </div><!--Jumbotron-->
+  </header><!--Header-->
+  <body class="container-fluid">
+    <main class="container">
+      
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 id="contact_head">Contact an expierenced advisor today</h1>
+        </div>
+      </div><!--Row 1-->
+      <div class="card container" id="card_one">
+        <button id="show_form_but">Click to begin enrollment</button>
+        <div class="card-body row mt-4" id="card_body">
+          <div class="col-2"></div><!--empty column-->
+          <div class="col-8 text-center">
+            <form id="contact_form">
+              <h2>Select your language</h2>
+              <select id="language_dropdown"></select>
+              <label for="f_name">First Name:</label>
+              <input class="main_inputs" id="f_name" type="text" required>
+              <label for="l_name">Last Name:</label>
+              <input class="main_inputs" id="l_name" type="text" required>
+              <label for="email">Email address:</label>
+              <input class="main_inputs" id="email" type="text" required>
+              <label for="phone">Phone number:</label>
+              <input class="main_inputs" id="phone" type="text" required>
+              <label for="about">Preferred method and time for communication</label>
+              <input class="main_inputs" id="about" type="text-area" required placeholder="Tell us about yourself">
+              <input class="truth" id="sub_button" type="submit"> 
+            </form>
+          </div><!--Form column-->
+          <div class="col-2"></div><!--empty column-->
+        </div><!--Card body-->
+      </div><!--Card one-->
+    </main>
+    <footer>
+        <div class="row d-flex justify-content-center">
+            <div class="text-center ">
+              <h2 id="footer_head"><u>Verum est ibi</u></h2>
+              <p id="footer_para"><em>The truth is out there</em></p>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center justify-content-around mb-2">
+            <button class="linksBut">
+              <a href="../index.html">Home</a>
+            </button>
+            <button class="linksBut">
+              <a href="../html/pricing_page.html">Costs and financing</a>
+            </button>
+            <button class="linksBut">
+                <a href="../html/about_us.html">About Us</a>
+              </button>
+            
+          </div>
+    </footer>
+<!--Script Section------------------------------------------------------------------------>
+    <script src="https://cdn.tlm.cloud/jquery/3.3.1/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.tlm.cloud/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.tlm.cloud/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <script src="../js/contact_us.js"></script>
+  </body>
+</html>

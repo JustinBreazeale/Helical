@@ -1,0 +1,219 @@
+*,
+*::after,
+*::before{
+  box-sizing:border-box;
+}
+a{
+  color: #ffff00;
+}
+body{
+  background: linear-gradient(#0000ff 50%,#000);
+  background-repeat:no-repeat;
+}
+/* Header---------------------------------------- */
+.jumbotron{
+  background:radial-gradient(#00008b,#0000ff,#000);
+  border-radius:0 0 33% 33%;
+  box-shadow:10px 10px 10px 10px #000;
+}
+#main_head{
+  font-family: Gill Sans Extrabold, serif;
+  font-size: 80px;
+  text-shadow: 10px 10px 10px #fff;
+}
+#third_head{
+  font-family: Gill Sans Extrabold, sans-serif;
+  color: #fff;
+  text-shadow: 5px 5px 5px #000;
+}
+/* Animation for header text--------------- */
+.truth{
+  animation:linear;
+  animation-duration: 5s;
+  animation-name: truth;
+  animation-iteration-count: infinite;
+}
+@keyframes truth{
+  25%,35%,45%,55%,65%,75%,85%,95%{
+    color:#ffff00;
+  }
+  30%,40%,50%,60%,70%,80%,90%,100%{
+    color:#000;
+  }
+}
+#logo{
+  height: 200px;
+  width: 75px;
+}
+#logo2{
+  height: 200px;
+  width: 75px;
+}
+/* Animation for header image------------------- */
+.helrotate{
+  animation: linear;
+  animation-name: helixRotate;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+@keyframes helixRotate{
+  20%{
+    transform:rotateY(180deg);
+  }
+  30%{
+    transform: rotate(180deg);
+  }
+  50%{
+    transform:rotateY(180deg);
+  }
+}
+/* Card------------------------------- */
+.card{
+  background: linear-gradient( #ffff00, #00008b, #ffc0cb);
+    margin:50px 0 0 0 ;
+  box-shadow: inset 0px 0px 10px #000;
+}
+.card-title{
+  font-family: Gill Sans Extrabold, serif;
+  font-size:50px;
+}
+.loan_pic{
+  border: 3mm groove #000;
+  border-radius: 30px;
+}
+/* Modal----------------------------- */
+.modal-header{
+  background: radial-gradient(#ffff00, #0000ff);
+  text-align: center;
+}
+.modal-title{
+  text-shadow: 3px 3px 3px #fff;
+  font-size:40px;
+}
+/* Animation for button holder----------- */
+.colorO{
+  animation: colorTurn forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes colorTurn{
+  10%{
+    color: #ffff00;
+    background: linear-gradient(#ffc0cb,yellow,#0000ff 10%,#00008b 30%, #0000ff 30%,#00008b 30% );
+  }
+  30%{
+    background: linear-gradient(#ffc0cb,#ffff00,#0000ff 20%,#00008b 30%, #0000ff 40%,#00008b 30% );
+  }
+  50%{
+    background: linear-gradient(#ffc0cb,#ffff00,#0000ff 30%,#00008b 40%, #0000ff 50%,#00008b 30% );
+  }
+  70%{
+    background: linear-gradient(#ffc0cb,#ffff00,#0000ff 40%,#00008b 50%, #0000ff 60%,#00008b 30% );
+  }
+  90%{
+    background: linear-gradient(pink,#ffff00,#0000ff 50%,#00008b 60%, #0000ff 70%,#00008b 30% );
+  }
+  100%{
+    color:#000;
+    text-shadow: 5px 5px 5px #0000ff;
+    background: linear-gradient(#ffc0cb,#ffff00,#0000ff 60%,#00008b 80%, #00008b 100% );
+    }
+  }
+#button_div{
+  background-color: #000;
+  border:3mm inset #ffc0cb;
+}
+.price_but{
+  background: radial-gradient(#ffff00, #0000ff);
+  margin:10px 10px 10px 10px;
+  border:3mm outset #ffc0cb;
+  border-radius: 25px;
+  height:100px;
+  width: 150px;
+}
+/* Footer--------------------------------- */
+footer{
+  border:3px solid #000;
+  border-radius:20px;
+  background: radial-gradient(#808080,#0000ff, #ffc0cb);
+  margin: 10px 0 10px 0;
+}
+#footer_head{
+  text-shadow: 5px 5px 5px #ffc0cb;
+  font-family: fantasy;
+  font-size: 60px;
+  color: #ffff00
+}
+#footer_para{
+  font-family: Gill Sans Extrabold, sans-serif;
+  font-size: 20px;
+  color:#fff;
+  text-shadow: 3px 3px 3px #000;
+}
+.link-lists{
+  list-style: none;
+  font-size: 20px;
+}
+.linksBut{
+  box-shadow: 5px 5px 5px #fff;
+  background-color: #00008b;
+  border-radius: 75px;
+  text-shadow: 2px 2px 2px #ffc0cb;
+  font-size:30px;
+  color:#ffff00; 
+}
+/* Student loan paragraph----------------------- */
+.loan_row{
+  margin:50px 0 0 0 ;
+  box-shadow: inset 0px 0px 10px #000;
+}
+#loan_head{
+  color:#fff;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px #000;
+}
+.loan_para{
+  font-family: Gill Sans Extrabold, serif;
+  font-size: 25px;
+  color:#ffc0cb;
+  text-shadow: 2px 2px 2px #000;
+}
+#qualis{
+  color: #00008b;
+  text-shadow: 2px 2px 2px #000;
+  font-size:27px;
+  text-decoration: underline;
+}
+#pic_row{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Animation for body pragraph text------------------------- */
+.shine{
+  animation: shine forwards;
+  animation-duration:2s;
+  animation-iteration-count: 1;
+}
+@keyframes shine{
+  0%{
+    color: #ffff00;
+     background: linear-gradient(45deg, #00008b, #ffff00, #0000ff 50%);
+  }
+  25%{
+    color: #000;
+     background: linear-gradient(90deg, #00008b , #ffff00, #00008b);
+  }
+  50%{
+     background: linear-gradient(135deg, #00008b, #ffff00 , #00008b);
+  }
+  75%{
+     background: linear-gradient(180deg, #00008b, #ffff00, #00008b);
+  }
+  100%{
+    border:3mm inset #000;
+    background: linear-gradient(360deg, #00008b, #ffff00 50%, #00008b);
+  }
+}
+
+
+
